@@ -1,5 +1,10 @@
-# Code and Data for the paper: [Do Discourse Indicators Reflect the Main Arguments in Scientific Papers?]
+# Code and Data for the 9.th ArgMining Workshop paper: 
+## Do Discourse Indicators Reflect the Main Arguments in Scientific Papers?
 
+
+
+
+## Data is available at https://polybox.ethz.ch/index.php/s/ftX6dhsMzeFe5H8
 ## References
 Please cite our work as:
 ```

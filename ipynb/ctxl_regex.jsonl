@@ -1,0 +1,126 @@
+{"indicator":"resulting in", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\,\\s+\\bresulting\\sin\\b([^.]*)\\.\\s+([^.]*)", "label":["F","P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"results from", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\bresults\\sfrom\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", "", ".", "."]}
+{"indicator":"indicating that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\s+\\bindicating\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", "", ".", "."]}
+{"indicator":"indicating", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bindicating\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"because", "rule":".*?\\.\\s+([^.]*)\\.\\s+\\bbecause\\b([^,]*)\\,\\s+([^.]*)\\.\\s+([^.]*)", "label":["F", "I", "P", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"because", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bbecause\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"thus", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bthus\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"results from", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\bresults\\sfrom\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", "", ".", "."]}
+{"indicator":"may help to", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\bmay\\shelp\\sto\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", "", ".", "."]}
+{"indicator":"therefore", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\,\\s+\\btherefore\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"suggested that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\bsuggested\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", "", ".", "."]}
+{"indicator":"can cause", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\bcan\\scause\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", "", ".", "."]}
+{"indicator":"since", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bsince\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"therefore", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\btherefore\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"therefore", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\btherefore\\b\\,\\s+([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ".", ",", "."]}
+{"indicator":"wherefore", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bwherefore\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"so that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bso\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"consequently", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bconsequently\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"entails that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bentails\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"as shown by", "rule":".*?\\.\\s+([^.]*)\\.\\s+\\bas\\sshown\\sby\\b([^,]*)\\,\\s+([^.]*)\\.\\s+([^.]*)", "label":["F", "I", "P", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"if", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bif\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"shows that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bshows\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"follows from", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bfollows\\sfrom\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"given that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bgiven\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"granted that", "rule":".*?\\.\\s+([^.]*)\\.\\s+\\bgranted\\sthat\\b([^,]*)\\,\\s+([^.]*)\\.\\s+([^.]*)", "label":["F", "I", "P", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"supposing that", "rule":".*?\\.\\s+([^.]*)\\.\\s+\\bsupposing\\sthat\\b([^,]*)\\,\\s+([^.]*)\\.\\s+([^.]*)", "label":["F", "I", "P", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"supposing that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bsupposing\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", ", ", ".", "."]}
+{"indicator":"assuming that", "rule":".*?\\.\\s+([^.]*)\\.\\s+\\bassuming\\sthat\\b([^,]*)\\,\\s+([^.]*)\\.\\s+([^.]*)", "label":["F", "I", "P", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"assuming that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bassuming\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"here is why", "rule":".*?\\.\\s+([^.]*)\\.\\s+\\bhere\\sis\\swhy\\b([^:]*)\\:\\s+([^.]*)\\.\\s+([^.]*)", "label":["F", "I", "C", "P", "B"], "punc":[".", ":", ".", "."]}
+{"indicator":"implies that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\bimplies\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", "", ".", "."]}
+{"indicator":"as indicated by", "rule":".*?\\.\\s+([^.]*)\\.\\s+\\bas\\sindicated\\sby\\b([^,]*)\\,\\s+([^.]*)\\.\\s+([^.]*)", "label":["F", "I", "P", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"as indicated by", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bas\\sindicated\\sby\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"indicating that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\bindicating\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", " ", ".", "."]}
+{"indicator":"indicating that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bindicating\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"due to the reason that", "rule":".*?\\.\\s+([^.]*)\\.\\s+\\bdue\\sto\\sthe\\sreason\\sthat\\b([^,]*)\\,\\s+([^.]*)\\.\\s+([^.]*)", "label":["F", "I", "P", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"due to the reason that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bdue\\sto\\sthe\\sreason\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"on account of the reason that", "rule":".*?\\.\\s+([^.]*)\\.\\s+\\bon\\saccount\\sof\\sthe\\sreason\\sthat\\b([^,]*)\\,\\s+([^.]*)\\.\\s+([^.]*)", "label":["F", "I", "P", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"on account of the reason that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bon\\saccount\\sof\\sthe\\sreason\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"in view of the fact that", "rule":".*?\\.\\s+([^.]*)\\.\\s+\\bin\\sview\\sof\\sthe\\sfact\\sthat\\b([^,]*)\\,\\s+([^.]*)\\.\\s+([^.]*)", "label":["F", "I", "C", "P", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"in view of the fact that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bin\\sview\\sof\\sthe\\sfact\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"may be deduced from", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\bmay\\sbe\\sdeduced\\sfrom\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", "", ".", "."]}
+{"indicator":"might be deduced from", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\bmight\\sbe\\sdeduced\\sfrom\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", "", ".", "."]}
+{"indicator":"may be inferred from", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\bmay\\sbe\\sinferred\\sfrom\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", "", ".", "."]}
+{"indicator":"might be inferred from", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\bmight\\sbe\\sinferred\\sfrom\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", "", ".", "."]}
+{"indicator":"may be derived from", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\bmay\\sbe\\sderived\\sfrom\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", "", ".", "."]}
+{"indicator":"might be derived from", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\bmight\\sbe\\sderived\\sfrom\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", "", ".", "."]}
+{"indicator":"thereby showing that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bthereby\\sshowing\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"thus", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bthus\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"thus", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\.\\s+\\bthus\\b\\,\\s+([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"which can be derived from", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bwhich\\scan\\sbe\\sderived\\sfrom\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"it can be derived from", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\.\\s+\\bit\\scan\\sbe\\sderived\\sfrom\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"establishes that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\bestablishes\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", "", ".", "."]}
+{"indicator":"proves that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\bproves\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", "", ".", "."]}
+{"indicator":"justifies that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\bjustifies\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", "", ".", "."]}
+{"indicator":"is supported by", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\bis\\ssupported\\sby\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", "", ".", "."]}
+{"indicator":"in support of", "rule":".*?\\.\\s+([^.]*)\\.\\s+\\bin\\ssupport\\sof\\b([^,]*)\\,\\s+([^.]*)\\.\\s+([^.]*)", "label":["F", "I", "C", "P", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"which lends credence to", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bwhich\\slends\\sscredence\\sto\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"inasmuch as", "rule":".*?\\.\\s+([^.]*)\\.\\s+\\binasmuch\\sas\\b([^,]*)\\,\\s+([^.]*)\\.\\s+([^.]*)", "label":["F", "I", "P", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"on the hypothesis that", "rule":".*?\\.\\s+([^.]*)\\.\\s+\\bon\\sthe\\shypothesis\\sthat\\b([^,]*)\\,\\s+([^.]*)\\.\\s+([^.]*)", "label":["F", "I", "P", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"on the hypothesis that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bon\\sthe\\shypothesis\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"demonstrates that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\bdemonstrates\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", "", ".", "."]}
+{"indicator":"indicates that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\bindicates\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", "", ".", "."]}
+{"indicator":"indicating", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bindicating\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"signifies that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\bsignifies\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", "", ".", "."]}
+{"indicator":"guarantees that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\bguarantees\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", "", ".", "."]}
+{"indicator":"is based on", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\bis\\sbased\\son\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", "", ".", "."]}
+{"indicator":"on the basis of", "rule":".*?\\.\\s+([^.]*)\\.\\s+\\bon\\sthe\\sbasis\\sof\\b([^,]*)\\,\\s+([^.]*)\\.\\s+([^.]*)", "label":["F", "I", "P", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"on the basis of", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bon\\sthe\\sbasis\\sof\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"in light of the fact that", "rule":".*?\\.\\s+([^.]*)\\.\\s+\\bin\\slight\\sof\\sthe\\sfact\\sthat\\b([^,]*)\\,\\s+([^.]*)\\.\\s+([^.]*)", "label":["F", "I", "P","C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"in fact", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\.\\s+\\bin\\sfact\\b\\,\\s+([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ".", ",", "."]}
+{"indicator":"in fact that", "rule":".*?\\.\\s+([^.]*)\\.\\s+\\bin\\sfact\\sthat\\b([^,]*)\\,\\s+([^.]*)\\.\\s+([^.]*)", "label":["F", "I", "P", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"convinced by the fact", "rule":".*?\\.\\s+([^.]*)\\.\\s+\\bconvinced\\sby\\sthe\\sfact\\b([^,]*)\\,\\s+([^.]*)\\.\\s+([^.]*)", "label":["F", "I", "P", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"seeing that", "rule":".*?\\.\\s+([^.]*)\\.\\s+\\bseeing\\sthat\\b([^,]*)\\,\\s+([^.]*)\\.\\s+([^.]*)", "label":["F", "I", "P", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"seeing that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bseeing\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"for the reason that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bfor\\sthe\\sreason\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"from which it follows", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bfrom\\swhich\\sit\\sfollows\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"owing to", "rule":".*?\\.\\s+([^.]*)\\.\\s+\\bowing\\sto\\b([^,]*)\\,\\s+([^.]*)\\.\\s+([^.]*)", "label":["F", "I", "P", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"owing to", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bowing\\sto\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"due to", "rule":".*?\\.\\s+([^.]*)\\.\\s+\\bdue\\sto\\b([^,]*)\\,\\s+([^.]*)\\.\\s+([^.]*)", "label":["F", "I", "C", "P", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"due to", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bdue\\sto\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"on the grounds that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bon\\sthe\\sgrounds\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"on the grounds that", "rule":".*?\\.\\s+([^.]*)\\.\\s+\\bon\\sthe\\sgrounds\\sthat\\b([^,]*)\\,\\s+([^.]*)\\.\\s+([^.]*)", "label":["F", "I", "P", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"considering", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bconsidering\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"which leads to", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bwhich\\sleads\\sto\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"on account of the fact that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bon\\saccount\\sof\\sthe\\sfact\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"on account of the fact that", "rule":".*?\\.\\s+([^.]*)\\.\\s+\\bon\\saccount\\sof\\sthe\\sfact\\sthat\\b([^,]*)\\,\\s+([^.]*)\\.\\s+([^.]*)", "label":["F", "I", "P", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"which shows that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bwhich\\sshows\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"which allows us to infer", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bwhich\\sallows\\sus\\sto\\sinfer\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"means that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bmeans\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"which implies", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bwhich\\simplies\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"which points to", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bwhich\\spoints\\sto\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"the reason is that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\bthe\\sreason\\sis\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"accordingly", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\baccordingly\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"from this we can deduce that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\.\\s+\\bfrom\\sthis\\swe\\scan\\sdeduce\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"from this it follows that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\bfrom\\sthis\\sit\\sfollows\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"which proves that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bwhich\\sproves\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"this proves that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\bthis\\sproves\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"hence", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\.\\s+\\bhence\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"obviously", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\.\\s+\\bobviously\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"this is proven from", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\.\\s+\\bthis\\sis\\sproven\\sfrom\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"evidently", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\.\\s+\\bevidently\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"in conclusion", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\.\\s+\\bin\\sconclusion\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"on this account", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\.\\s+\\bon\\sthis\\saccount\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"this is shown by", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\.\\s+\\bthis\\sis\\sshown\\sby\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"this is being so", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\.\\s+\\bthis\\sis\\sbeing\\sso\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"in view of that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\.\\s+\\bin\\sview\\sof\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"one can deduce that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\.\\s+\\bone\\scan\\sdeduce\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"one can infer that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\.\\s+\\bone\\scan\\sinfer\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"one can conclude that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\.\\s+\\bone\\scan\\sconclude\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"one may deduce that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\.\\s+\\bone\\smay\\sdeduce\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"one may infer that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\.\\s+\\bone\\smay\\sinfer\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"its proof is that", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\.\\s+\\bits\\sproof\\sis\\sthat\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"as a result", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bas\\sa\\sresult\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"in that case", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bin\\sthat\\scase\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"this comes from", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\.\\s+\\bthis\\scomes\\sfrom\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"for this reason", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\.\\s+\\bfor\\sthis\\sreason\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"for these reasons", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\.\\s+\\bfor\\sthese\\sreasons\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"it entails", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\.\\s+\\bit\\sentails\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"which entails", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bwhich\\sentails\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"in consequence", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bin\\sconsequence\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"in consequence", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\.\\s+\\bin\\sconsequence\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"in consequence of", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\bin\\sconsequence\\sof\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "C", "I", "P", "B"], "punc":[".", "", ".", "."]}
+{"indicator":"as a consequence", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^,]*)\\,\\s+\\bas\\sa\\sconsequence\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ",", ".", "."]}
+{"indicator":"as a consequence", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\.\\s+\\bas\\sa\\sconsequence\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ".", ".", "."]}
+{"indicator":"as conclusion", "rule":".*?\\.\\s+([^.]*)\\.\\s+([^.]*)\\.\\s+\\bas\\sconclusion\\b([^.]*)\\.\\s+([^.]*)", "label":["F", "P", "I", "C", "B"], "punc":[".", ".", ".", "."]}
